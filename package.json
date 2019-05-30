@@ -1,0 +1,24 @@
+{
+  "name": "petful",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Alex Cumbo",
+  "license": "UNLICENSED",
+  "main": "server/server.js",
+  "scripts": {
+    "server": "cd server && yarn start",
+    "client": "cd client && yarn start",
+    "install:server": "cd server && yarn install",
+    "install:client": "cd client && yarn install",
+    "install": "run-p install:server install:client",
+    "dev": "run-p server client",
+    "clean:server": "cd server && yarn run clean",
+    "clean:client": "cd client && yarn run clean",
+    "clean:root": "rimraf './node_modules'",
+    "clean": "run-s clean:root clean:server clean:client"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

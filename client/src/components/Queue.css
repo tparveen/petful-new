@@ -1,0 +1,32 @@
+.animal ul.petQue {
+  width: 98%;
+  height: 3.5em;
+  margin: 3em auto; 
+  border: 1.5px solid #eeeeee;
+  border-radius: 5px;
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding: 3px;
+  background-color: lightblue;
+  box-shadow: 2px 2px 2px lightskyblue;
+}
+
+.animal ul.petQue li img {
+  width: 3em;
+  height: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px darkgray;
+}
+
+.animal ul.petQue li img.adopted {
+  filter: grayscale(100%);
+  box-shadow: none;
+}

@@ -1,0 +1,20 @@
+.intro {
+  text-align: center;
+  color: white;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 10em;
+}
+
+.intro p {
+  margin-top: 5em;
+}
+
+.intro button {
+  margin-top: 10em;
+  width: 15em;
+  height: 3em;
+  border-radius: 12px;
+  outline: none;
+  font-size: 1em;
+}
